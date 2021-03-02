@@ -1,0 +1,33 @@
+{
+  "name": "eataburger",
+  "version": "1.0.0",
+  "description": "Burger app that lets the user customize their own burger.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstout039/EataBurger.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "handlebars"
+  ],
+  "author": "Ryan Stout",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rstout039/EataBurger/issues"
+  },
+  "homepage": "https://github.com/rstout039/EataBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
+}
